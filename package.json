@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "node express testing",
   "main": "index.js",
-
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.17.3",
-    "nodemon": "^2.0.22"
+    "getstream": "^8.3.1",
+    "nodemon": "^2.0.22",
+    "stream-chat": "^8.11.0"
   }
 }
