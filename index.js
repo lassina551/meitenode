@@ -7,8 +7,8 @@ const { StreamChat } = require('stream-chat');
 // Middlewares
 const app = express();
 
-const apiKey = "9mfvxkw8eb98";
-const apiSecret = "s99ujazzdx6cn725csafdk5jyv2j9qva9t7hks75hkwmk5n9q5t7c7cnjuh6xr87";
+const apiKey = "77ykkm9dtjuu";
+const apiSecret = "x3f8rdev4b2h62dxk6rxbdbpttbeqbhgsyb5uxqtkxqwgrdjn56nxa98mhe4w2p2";
 
 const chatClient = new StreamChat(apiKey, apiSecret);
 
